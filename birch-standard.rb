@@ -3,6 +3,7 @@ class BirchStandard < Formula
   homepage "https://birch-lang.org"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-standard-unversioned.tar.gz"
   version "0.163"
+  sha256 "2e6fba2fd9a874071f630970bbae17a750cdad9f31c4e688cd624f65e6a37602"
   license "Apache-2.0"
   depends_on "boost"
   depends_on "libbirch" => "0.163"

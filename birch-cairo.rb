@@ -3,6 +3,7 @@ class BirchCairo < Formula
   homepage "https://birch-lang.org"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-cairo-unversioned.tar.gz"
   version "0.163"
+  sha256 "cfa7efcb7c15a7dca4be9a32358b5e3431a795f18333d5ea49f6eb48b56e5fcd"
   license "Apache-2.0"
   depends_on "birch-standard" => "0.163"
   depends_on "cairo"

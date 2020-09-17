@@ -3,6 +3,7 @@ class Birch < Formula
   homepage "https://birch-lang.org"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-unversioned.tar.gz"
   version "0.163"
+  sha256 "9e9f5892deaf17e58c475aa52c9452d816244c7e072d8360670517a95301cb62"
   license "Apache-2.0"
   depends_on "bison" => :build
   depends_on "flex" => :build
