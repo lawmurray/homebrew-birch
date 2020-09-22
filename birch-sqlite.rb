@@ -1,6 +1,6 @@
 class BirchSqlite < Formula
   desc "SQLite wrapper library for the Birch probabilistic programming language"
-  homepage "https://birch-lang.org"
+  homepage "https://birch.sh"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-sqlite-unversioned.tar.gz"
   version "0.183"
   sha256 "424adca8792f2ff57bd5c964116bb6054cbf31b3113125163d4a7811b2124ead"

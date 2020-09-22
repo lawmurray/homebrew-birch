@@ -1,6 +1,6 @@
 class BirchCairo < Formula
   desc "Cairo wrapper library for the Birch probabilistic programming language"
-  homepage "https://birch-lang.org"
+  homepage "https://birch.sh"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-cairo-unversioned.tar.gz"
   version "0.183"
   sha256 "129e72681c940389c1b028facb4e886e114d9b5d947fdec8c3a60b18eda13096"
