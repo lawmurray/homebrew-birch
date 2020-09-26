@@ -2,12 +2,12 @@ class BirchCairo < Formula
   desc "Cairo wrapper library for the Birch probabilistic programming language"
   homepage "https://birch-lang.org"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-cairo-unversioned.tar.gz"
-  version "1.17"
-  sha256 "7c34d15b2fe8c008d6c1875746c1f77bfc3cda558caa7cf10393358327cf799c"
+  version "1.18"
+  sha256 "8fc55cf2807af715d70650ae16d932bebb248d6355c1669922f3249c08836781"
   license "Apache-2.0"
-  depends_on "birch-standard" => "1.17"
+  depends_on "birch-standard" => "1.18"
   depends_on "cairo"
-  depends_on "libbirch" => "1.17"
+  depends_on "libbirch" => "1.18"
 
   def install
     system "./configure", "--enable-debug",
