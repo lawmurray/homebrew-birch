@@ -2,11 +2,11 @@ class BirchSqlite < Formula
   desc "SQLite wrapper library for the Birch probabilistic programming language"
   homepage "https://birch.sh"
   url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-sqlite-unversioned.tar.gz"
-  version "1.102"
-  sha256 "056da1f74a82a3d64b44b5266448c7555cd045d410c524bd985f8c34c7d4b560"
+  version "1.104"
+  sha256 "26bcf8706134b6714ed530869c6ade2eeecd118ee10b5859139797ab8130886e"
   license "Apache-2.0"
-  depends_on "birch-standard" => "1.102"
-  depends_on "libbirch" => "1.102"
+  depends_on "birch-standard" => "1.104"
+  depends_on "libbirch" => "1.104"
   depends_on "sqlite"
 
   def install
