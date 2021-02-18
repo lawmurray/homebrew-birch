@@ -1,12 +1,12 @@
 class BirchStandard < Formula
   desc "Standard library for the Birch probabilistic programming language"
   homepage "https://birch.sh"
-  url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-standard-unversioned.tar.gz"
-  version "1.249"
-  sha256 "260bb99a32ece2b49becdb637299bcde42f4de8992c267e7703d89e73724b1a0"
+  url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-standard-1.257.tar.gz"
+  version "1.257"
+  sha256 "7cff9cb0fe83d8c3e04f14295760b4a017eb4bf162d9943da2d32b76cb0b5a6d"
   license "Apache-2.0"
   depends_on "boost"
-  depends_on "libbirch" => "1.249"
+  depends_on "libbirch" => "1.257"
   depends_on "libyaml"
 
   def install
