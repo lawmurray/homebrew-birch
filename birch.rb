@@ -12,8 +12,6 @@ class Birch < Formula
   depends_on "boost"
   depends_on "libtool"
   depends_on "libyaml"
-  depends_on "birch-cairo" => :recommended
-  depends_on "birch-sqlite" => :recommended
   depends_on "birch-standard" => :recommended
   depends_on "libbirch" => :recommended
 
