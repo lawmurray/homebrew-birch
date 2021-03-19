@@ -1,9 +1,9 @@
 class Birch < Formula
   desc "Bayesian inference for programmatic models"
   homepage "https://birch.sh"
-  url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-1.299.tar.gz"
-  version "1.299"
-  sha256 "6a3cc0e51a3f9dffea6854a1dd929832f6bef6215101ce291b0b83d8544867a2"
+  url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/birch-1.300.tar.gz"
+  version "1.300"
+  sha256 "5034529c270732614b3f7457c8d752b5ed39e7cb1c6d67f247728f6bb7d886ff"
   license "Apache-2.0"
   depends_on "bison" => :build
   depends_on "flex" => :build
