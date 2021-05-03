@@ -9,6 +9,8 @@ class Birch < Formula
   depends_on "flex" => :build
   depends_on "autoconf"
   depends_on "automake"
+  depends_on "binutils"
+  depends_on "jemalloc"
   depends_on "boost"
   depends_on "libtool"
   depends_on "libyaml"
