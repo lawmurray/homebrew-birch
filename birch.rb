@@ -15,7 +15,6 @@ class Birch < Formula
   depends_on "libtool"
   depends_on "libyaml"
   depends_on "birch-standard" => :recommended
-  depends_on "libbirch" => :recommended
 
   def install
     system "./configure", "--disable-debug",
