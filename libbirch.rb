@@ -13,7 +13,12 @@ class Libbirch < Formula
                           "--enable-release",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+                          "--prefix=#{prefix}",
+
+                          # see internal docs of birch driver program for
+                          # these OpenMP arguments
+                          "--disable-openmp",
+                          "CPPFLAGS=\"-Xpreprocessor -fopenmp\""
     system "make", "install"
   end
 
