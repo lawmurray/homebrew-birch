@@ -9,16 +9,14 @@ class Libbirch < Formula
   depends_on "libomp"
 
   def install
+    # see internal docs of birch driver program for explanation of OpenMP args
+    ENV["CPPFLAGS"] = "-Xpreprocessor -fopenmp"
     system "./configure", "--enable-debug",
                           "--enable-release",
+                          "--disable-openmp",
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
-                          "--prefix=#{prefix}",
-
-                          # see internal docs of birch driver program for
-                          # these OpenMP arguments
-                          "--disable-openmp",
-                          "CPPFLAGS=\"-Xpreprocessor -fopenmp\""
+                          "--prefix=#{prefix}"
     system "make", "install"
   end
 
