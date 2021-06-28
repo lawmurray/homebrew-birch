@@ -1,9 +1,9 @@
 class Libbirch < Formula
   desc "C++ library for dynamic memory management with lazy deep copy semantics"
   homepage "https://birch.sh"
-  url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/libbirch-1.625.tar.gz"
-  version "1.625"
-  sha256 "13525c43a992d378578b3a3c55320e05cb4bba05933fea50ac810a6fcb54fe2a"
+  url "https://raw.githubusercontent.com/lawmurray/homebrew-birch/master/libbirch-1.627.tar.gz"
+  version "1.627"
+  sha256 "a45832bfac31c3beab667a871709181f4edc6db4419d5b2a43678dc9491231ff"
   license "Apache-2.0"
   depends_on "eigen"
   depends_on "libomp"
